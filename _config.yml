@@ -39,6 +39,10 @@ exclude:
   - vendor
   - spec
   - README.md
+  - Vagrantfile
+  - imported_roles
+  - playbook.yml
+  - requirements.yml
 webrick:
   headers:
     'Access-Control-Allow-Origin': '*'
@@ -64,13 +68,13 @@ kramdown:
 collections:
   exhibits:
     output: true
-  qatar: # name of collection
+  misc: # name of collection
     output: true # makes sure pages are output as html files
     layout: 'qatar_item' # the layout for the pages to use
     metadata:
-      source: 'qatar.csv' # path to the metadata file within `_data`
+      source: 'object_metadata.csv' # path to the metadata file within `_data`
     images:
-      source: 'raw_images/qatar' # path to the directory of images within `_data`
+      source: 'raw_images/misc' # path to the directory of images within `_data`
 
 # --------------------------------------------------------------
 # SEARCH INDEX SETTINGS
