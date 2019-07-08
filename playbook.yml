@@ -21,20 +21,12 @@
       yum:
         name: rubygems
         state: latest 
-    - name: pip
+    - name: git
       yum:
-        name: python-pip
+        name: git
         state: latest
-    - name: pip install
-      easy_install:
-        name: pip
-        state: latest
-    - name: Flask
-      pip:
-        name: Flask
-        state: latest
-    - name: flask_cors
-      pip:
-        name: flask_cors
+    - name: ImageMagick
+      yum:
+        name: ImageMagick
         state: latest
         

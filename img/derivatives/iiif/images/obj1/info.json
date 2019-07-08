@@ -3,7 +3,7 @@ layout: none
 ---
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj11",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj1",
   "protocol": "http://iiif.io/api/image",
   "width": 14400,
   "height": 10800,
