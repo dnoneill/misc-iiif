@@ -8,9 +8,29 @@ layout: none
   "label": "misc",
   "manifests": [
     {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/46_90/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "46_90"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/136_178/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "136_178"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/91_135/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "91_135"
+    },
+    {
       "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/obj1/manifest.json",
       "@type": "sc:Manifest",
       "label": "obj1"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/1_45/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "1_45"
     }
   ]
 }
