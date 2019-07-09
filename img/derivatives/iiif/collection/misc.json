@@ -28,6 +28,11 @@ layout: none
       "label": "obj1"
     },
     {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/fullBayeux/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "fullBayeux"
+    },
+    {
       "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/1_45/manifest.json",
       "@type": "sc:Manifest",
       "label": "1_45"
