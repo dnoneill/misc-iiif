@@ -5,8 +5,8 @@ layout: none
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/fullBayeux/manifest.json",
   "@type": "sc:Manifest",
-  "label": "fullBayeux",
-  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/fullBayeux/full/250,/0/default.jpg",
+  "label": "Bayeux Tapestry",
+  "thumbnail": "https://iiif.lib.ncsu.edu/iiif/xx-bayeux3/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",
   "sequences": [
@@ -20,19 +20,19 @@ layout: none
           "label": "front",
           "width": 131000,
           "height": 1104,
-          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/fullBayeux/full/250,/0/default.jpg",
+          "thumbnail": "https://iiif.lib.ncsu.edu/iiif/xx-bayeux3/full/250,/0/default.jpg",
           "images": [
             {
               "@type": "oa:Annotation",
               "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/fullBayeux.json",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/fullBayeux/full/full/0/default.jpg",
+                "@id": "https://iiif.lib.ncsu.edu/iiif/xx-bayeux3/full/full/0/default.jpg",
                 "@type": "dcterms:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/fullBayeux",
+                  "@id": "https://iiif.lib.ncsu.edu/iiif/xx-bayeux3",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 },
                 "width": 65500,
@@ -45,5 +45,5 @@ layout: none
       ]
     }
   ],
-  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/fullBayeux/full/full/0/default.jpg"
+  "full": "https://iiif.lib.ncsu.edu/iiif/xx-bayeux3/full/full/0/default.jpg"
 }
