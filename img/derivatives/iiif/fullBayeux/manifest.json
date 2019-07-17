@@ -18,8 +18,8 @@ layout: none
           "@type": "sc:Canvas",
           "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/fullBayeux.json",
           "label": "front",
-          "width": 227840,
-          "height": 1920,
+          "width": 113920,
+          "height": 960,
           "thumbnail": "https://iiif.lib.ncsu.edu/iiif/xx-bayeux3/full/250,/0/default.jpg",
           "images": [
             {
