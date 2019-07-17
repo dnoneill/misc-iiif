@@ -18,8 +18,8 @@ layout: none
           "@type": "sc:Canvas",
           "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/fullBayeux.json",
           "label": "front",
-          "width": 131000,
-          "height": 1104,
+          "width": 227840,
+          "height": 1920,
           "thumbnail": "https://iiif.lib.ncsu.edu/iiif/xx-bayeux3/full/250,/0/default.jpg",
           "images": [
             {
@@ -35,8 +35,8 @@ layout: none
                   "@id": "https://iiif.lib.ncsu.edu/iiif/xx-bayeux3",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 },
-                "width": 65500,
-                "height": 552
+                "width": 113920,
+                "height": 960
               },
               "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/fullBayeux.json"
             }
